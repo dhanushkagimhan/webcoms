@@ -51,7 +51,6 @@
     <li><a href="../../help.php">Help</a></li>
 
     </ul>
-    <br /><br />
   </nav>
   <br><br>
   <h2 style="color:#111 ;text-align:center;">Upload a research paper for the first evaluation</h2>
