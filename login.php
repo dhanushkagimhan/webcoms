@@ -31,7 +31,6 @@
 			<li><a href="help.php">Help</a></li>
 			<li><a href="About.php">About</a></li>
 		</ul>
-		<br /><br />
 	</nav>
 
 	<!-- Login Form -->
