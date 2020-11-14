@@ -39,7 +39,7 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #6495ED;
+  background-color: dodgerblue;
   color: white;
 }
 </style>
@@ -58,20 +58,18 @@
     <li><a href="../../About.php">About</a></li>
     <li><a href="../../help.php">Help</a></li>
 
-
     </ul>
-    <br /><br />
   </nav>
 <h2></h2><br>
-<h2 style="color:#111 ;text-align:center;">Uploaded camera ready copies</h2><br>
-<h3 style="color:dodgerblue ;text-align:center;">As publication-chair you can download final camera-ready copies and generate proceeding preparation</h3>
+<h2 style="color:#283747 ;margin-left:20px;">Uploaded camera ready copies</h2><br>
+<!-- <p style="color:#283747 ;margin-left:20px;">As publownload final camera-ready copies and generate proceeding preparation</p> -->
 
 <table id="papersDownloads">
 <thead>
     <!-- file id -->
     <th>ID </th> 
     <!-- <th>Author's name</th> -->
-    <th>File name</th>
+    <th>Research paper</th>
     <th>Conference name</th>
     <th>University(Author)</th>
     <th>File size (in KB)</th>
@@ -96,7 +94,8 @@
 
       <td><?php echo floor($file['size'] / 1000) . ' KB'; ?></td>
       <td><?php echo $file['downloads']; ?></td>
-      <td><a style="text-decoration:none" href="viewcamerareadycopies.php?file_id=<?php echo $file['crc_id'] ?>"> Download </a></td>
+      
+      <td><i class="fas fa-file-download" style="color:#1A5276;"></i><a style="text-decoration:none;color:dodgerblue;" href="viewcamerareadycopies.php?file_id=<?php echo $file['crc_id'] ?>"> Download </a></td>
       
 
     
