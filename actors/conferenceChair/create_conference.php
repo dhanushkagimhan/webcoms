@@ -61,7 +61,7 @@
 		Before clicking "Submit" to save your request, please make sure that you use the correct information in the correct format for the conference.
 		</p>
 
-		<p style="margin-left:25px;color:#111;font-weight:400;">
+		<p style="margin-left:25px;color:#283747;font-weight:400;">
 		
 			<span class="dot"></span>
 			Enter the <span style='color: dodgerblue;font-weight:500;'>full title</span> of the conference
