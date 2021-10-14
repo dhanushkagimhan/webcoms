@@ -81,7 +81,7 @@
                 <br></p>
             </div><!--footcol-->
           
-        </section><!-- End of the bottom section -->
+        </section>
 
     <br><br>
         
